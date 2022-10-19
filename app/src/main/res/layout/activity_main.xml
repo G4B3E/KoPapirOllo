@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/KepEmber"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rock"
+
+        />
+
+    <TextView
+        android:id="@+id/EmberValasztas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="A te valasztasod"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/KepGep"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/GepValasztas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="A gép valasztasa"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Eredmeny:Ember 0 Gep:0"
+        android:id="@+id/Eredmeny"
+        android:textSize="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/ButtonKo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#C8C8C8"
+            android:text="Kő"
+            android:textColor="@android:color/black"
+
+
+            />
+
+        <Button
+            android:id="@+id/ButtonPapir"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp"
+            android:backgroundTint="#C8C8C8"
+            android:text="Papír"
+            android:textColor="@android:color/black"
+
+            />
+
+        <Button
+            android:id="@+id/ButtonOllo"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C8C8C8"
+            android:text="Olló"
+            android:textColor="@android:color/black"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
